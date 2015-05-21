@@ -11,21 +11,21 @@ $(document).ready(function() {
 		switch(parseInt(key.which,10)) {
 			case 37:
 				console.log("LEFT arrow hit");
-				$('img').animate({left: "-=10px"}, 'fast');
+				$('.avatar').animate({left: "-=10px"}, 'fast');
 				break;
 			case 38:
 				console.log("UP arrow hit");
-			    $('img').animate({top: "-=10px"}, 'fast');
+			    $('.avatar').animate({top: "-=10px"}, 'fast');
 				// Put our code here
 				break;
 			case 39:
 				console.log("RIGHT arrow hit");
-			    $('img').animate({left: "+=10px"}, 'fast');
+			    $('.avatar').animate({left: "+=10px"}, 'fast');
 				// Put our code here
 				break;
 			case 40:
 				console.log("DOWN arrow hit");
-			    $('img').animate({top: "+=10px"}, 'fast');
+			    $('.avatar').animate({top: "+=10px"}, 'fast');
 				// Put our code here
 				break;
 		}
