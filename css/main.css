@@ -68,11 +68,24 @@
      
 }
 
+#middlevideo {
+
+    position: absolute;  
+    width: 300px;
+    height: 300px;
+    left: 1000px;
+    
+
+
+}
+
 .video {
 
     position: absolute;  
     width: 300px;
-    height: 300px; 
+    height: 300px;
+    left: 100px;
+    
 
 
 }
