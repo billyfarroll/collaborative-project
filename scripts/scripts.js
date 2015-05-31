@@ -32,3 +32,12 @@ $(document).ready(function() {
 	});
 
 });
+
+
+         $( document ).click(function() {
+  $( "body" ).toggle("explode");
+   
+});
+
+        
+      
