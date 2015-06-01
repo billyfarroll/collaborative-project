@@ -3,6 +3,11 @@
     background: transparent;
 }
 
+html, body{
+   padding: 0;
+   margin: 0;
+}
+
 <!--giving my parallax-window height and background.-->
 
 .overlay {
@@ -24,8 +29,9 @@
 }
 
 .container {
-    width: 900px; 
-    margin: 0px auto; 
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 .clearfix {
@@ -85,4 +91,26 @@
     width: 300px;
     height: 300px;
     left: 100px;
+}
+
+.link {
+
+    position: absolute;
+    left: 1000px;
+    
+    
+}
+
+.link1 {
+
+    position: absolute;
+    left:1100px; 
+    
+}
+
+.link2 {
+
+    position: absolute;
+    left: 1200px; 
+    
 }
