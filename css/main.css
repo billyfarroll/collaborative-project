@@ -86,17 +86,38 @@ html, body{
     display: none; 
 }
 
-.video {
+#video {
+    position: absolute;  
+    width: 300px;
+    height: 300px;
+    left: 300px;
+}
+
+#video1 {
+    position: absolute;  
+    width: 300px;
+    height: 300px;
+    left: 2100px;
+}
+
+#video2 {
     position: absolute;  
     width: 300px;
     height: 300px;
     left: 100px;
 }
 
+#video3 {
+    position: absolute;  
+    width: 300px;
+    height: 300px;
+    left: 2100px;
+}
+
 .link {
 
     position: absolute;
-    left: 1000px;
+    left: 2500px;
     
     
 }
@@ -104,13 +125,13 @@ html, body{
 .link1 {
 
     position: absolute;
-    left:1100px; 
+    left:2400px; 
     
 }
 
 .link2 {
 
     position: absolute;
-    left: 1200px; 
+    left: 2600px; 
     
 }
