@@ -1,10 +1,18 @@
 $(document).ready(function() {
     $(document).scroll(function(e) {
         var scrollpostion = $("body").scrollTop();
-        //console.log(scrollpostion);
+        console.log(scrollpostion);
         //The code above makes the website a parallax scroll
+        
+        if(scrollpostion > 1900) {
+            $(".the-video")[0].play() 
+        }
+        
 	});
 
+    $("#name").click(function(){
+        $(".the-video")[0].play() 
+    });
 
 	$(document).keydown(function(key) {
 		key.preventDefault()
