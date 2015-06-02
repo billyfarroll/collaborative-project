@@ -15,7 +15,54 @@ html, body{
     padding: 50px;
         
 }
+.button {
+    width: 100px;
+    height: 50px;
+    background: red;
+    opacity: 0.09;
+    cursor: pointer;
+    transition: all 1s; 
+    margin-left: 400px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.button:hover {
+    opacity: 0.9;
+}
 
+.button1 {
+    width: 100px;
+    height: 50px;
+    background: red;
+    opacity: 0.09;
+    cursor: pointer;
+    transition: all 1s;
+    margin-left: 710px;
+    margin-right: auto; 
+    margin-top: 5px;
+    
+}
+.button1:hover {
+    opacity: 0.9;
+}
+
+.button2 {
+    width: 100px;
+    height: 50px;
+    background: red;
+    opacity: 0.09;
+    cursor: pointer;
+    transition: all 1s;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: -200px; 
+     
+}
+.button2:hover {
+    opacity: 0.9;
+}
 <!--overlay is the shading on top of the images which are scrolling.-->
 
 .black-bg {
@@ -90,14 +137,14 @@ html, body{
     position: absolute;  
     width: 300px;
     height: 300px;
-    left: 300px;
+    left: 100px;
 }
 
 #video1 {
     position: absolute;  
     width: 300px;
     height: 300px;
-    left: 2100px;
+    left: 800px;
 }
 
 #video2 {
@@ -111,13 +158,13 @@ html, body{
     position: absolute;  
     width: 300px;
     height: 300px;
-    left: 2100px;
+    left: 800px;
 }
 
 .link {
 
     position: absolute;
-    left: 2500px;
+    left: 800px;
     
     
 }
@@ -125,14 +172,14 @@ html, body{
 .link1 {
 
     position: absolute;
-    left:2400px; 
+    left:750px; 
     
 }
 
 .link2 {
 
     position: absolute;
-    left: 2600px; 
+    left: 700px; 
     
 }
 
