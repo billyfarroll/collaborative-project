@@ -1,4 +1,26 @@
 $(document).ready(function() {
+    
+    function stopAllAudio() {
+        $("audio").each(function(){
+            $(this).trigger("pause");
+        });   
+    }
+    
+    $(".button").click(function(){
+        stopAllAudio();
+        $("#audio1")[0].play(); 
+    });
+    
+    $(".button1").click(function(){
+        stopAllAudio();
+        $("#audio2")[0].play(); 
+    });
+    
+    $(".button2").click(function(){
+        stopAllAudio();
+        $("#audio3")[0].play(); 
+    });
+    
     $(document).scroll(function(e) {
         var scrollpostion = $("body").scrollTop();
         console.log(scrollpostion);
@@ -6,7 +28,7 @@ $(document).ready(function() {
         
        // if(scrollpostion > 1900) {
          //   $(".the-video")[0].play() 
-        }
+
         
 	//});
 
@@ -42,10 +64,10 @@ $(document).ready(function() {
 });
 
 
-         $( document ).click(function() {
-  $( "body" ).toggle("explode");
-   
-});
+//         $( document ).click(function() {
+//  $( "body" ).toggle("explode");
+//   
+//});
 
-        
+ 
       
