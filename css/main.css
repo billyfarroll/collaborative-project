@@ -139,6 +139,8 @@ html, body{
 #audio1 {
 
     position: absolute; 
+    left: 870px; 
+    
     
 
 }
@@ -146,6 +148,7 @@ html, body{
 #audio2 {
 
     position: absolute; 
+    left: 1500px;
     
 
 }
@@ -153,6 +156,7 @@ html, body{
 #audio3 {
 
     position: absolute; 
+    left: 200px;
      
 
 }
