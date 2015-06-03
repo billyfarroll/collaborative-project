@@ -11,15 +11,17 @@ $(document).ready(function() {
         $("#audio1")[0].play(); 
     });
     
-    $(".button1").click(function(){
+    $(".interview").click(function(){
         stopAllAudio();
         $("#audio2")[0].play(); 
     });
     
-    $(".button2").click(function(){
+    $(".prequel").click(function(){
         stopAllAudio();
         $("#audio3")[0].play(); 
     });
+    
+    
     
     $(document).scroll(function(e) {
         var scrollpostion = $("body").scrollTop();
